@@ -11,6 +11,9 @@
   "directories": {
     "lib": "lib"
   },
+  "scripts": {
+    "preinstall": "./bin/make_index.sh"
+  },
   "engines": {
     "node": "*"
   }
