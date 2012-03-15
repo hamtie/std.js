@@ -1,7 +1,7 @@
-var curry = require('./curry'),
-	map = require('./map'),
-	each = require('./each'),
-	json = require('./json')
+var curry = require('./lib/curry'),
+	map = require('./lib/map'),
+	each = require('./lib/each'),
+	json = require('./lib/json')
 
 module.exports = {
 	request: request,

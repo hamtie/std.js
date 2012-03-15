@@ -11,9 +11,9 @@
  * NO WARRANTY EXPRESSED OR IMPLIED. USE AT YOUR OWN RISK.
  */
 
-var isArguments = require('../isArguments'),
-	slice = require('../slice'),
-	keys = require('../keys')
+var isArguments = require('../lib/isArguments'),
+	slice = require('../lib/slice'),
+	keys = require('../lib/keys')
 
 var deepEqual = module.exports = function(actual, expected) {
   // 7.1. All identical values are equivalent, as determined by ===.

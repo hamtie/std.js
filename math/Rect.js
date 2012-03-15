@@ -1,4 +1,4 @@
-var Class = require('../Class')
+var Class = require('../lib/Class')
 
 module.exports = Class(function() {
 	
